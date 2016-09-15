@@ -1,0 +1,16 @@
+{
+    "homepage": "http://www.sumatrapdfreader.org",
+    "version": "3.1.2",
+    "license": "GPL3",
+    "architecture": {
+        "32bit": {
+            "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2.zip",
+            "hash": ""
+        },
+        "64bit": {
+            "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2-64.zip",
+            "hash": ""
+        }
+    },
+    "bin": "SumatraPDF.exe"
+}

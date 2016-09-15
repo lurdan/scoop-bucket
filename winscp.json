@@ -1,0 +1,7 @@
+{
+    "homepage": "https://winscp.net",
+    "version": "5.9.2",
+    "url": "https://winscp.net/download/WinSCP-5.9.2-Portable.zip",
+    "hash": "",
+    "bin": "WinSCP.exe"
+}

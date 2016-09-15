@@ -1,0 +1,29 @@
+* scoop-bucket
+
+** setup
+
+#+BEGIN_SRC cmd
+scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
+#+END_SRC
+
+** todo
+
+- add hash
+- test installation
+- tweak installation
+  - asr
+  - putty-d2ddw
+  - wceskkserv (download dictionary)
+  - winscp (japanese resource?)
+- add package
+  - putty-gdi?
+  - emacs64
+  - git for windows sdk
+  - FastCopy
+  - FileMany
+  - eClip
+  - bug.n
+  - HashCk
+  - pita
+  - vcxsrv
+  - lhaforge
