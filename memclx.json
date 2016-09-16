@@ -2,6 +2,7 @@
     "homepage": "http://www.all.undo.jp/Memcl/",
     "version": "1.00",
     "url": "http://ftp.vector.co.jp/63/46/2273/MemCx100.exe",
-    "hash": "",
+    "hash": "39ac30039b5634543d536848d5183f25ef09fd6c9594e8f0938de62a406ddc1f",
+    "installer":
     "bin": "MemclX.exe"
 }
