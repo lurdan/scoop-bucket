@@ -3,14 +3,19 @@
     "version": "1.00",
     "architecture": {
         "32bit": {
-            "post_install": "mv \"$dir\\メモリの掃除屋さん　にゃお\\x86\\*.exe\" \"$dir\""
+            "bin": [
+                "*\\x86\\MemClX.exe",
+                "*\\x86\\MemClXCmd.exe"
+            ]
         },
         "64bit": {
-            "post_install": "mv \"$dir\\メモリの掃除屋さん　にゃお\\x64\\*.exe\" \"$dir\""
+            "bin": [
+                "*\\x64\\MemClX.exe",
+                "*\\x64\\MemClXCmd.exe"
+            ]
         }
     },
     "url": "http://ftp.vector.co.jp/63/46/2273/MemCx100.exe",
     "hash": "39ac30039b5634543d536848d5183f25ef09fd6c9594e8f0938de62a406ddc1f",
-    "installer": { "args": "-o$dir" },
-    "bin": [ "MemClX.exe", "MemClXCmd.exe" ]
+    "installer": { "args": "-o$dir" }
 }
