@@ -1,7 +1,10 @@
 {
     "homepage": "https://winscp.net",
     "version": "5.9.2",
-    "url": "https://winscp.net/download/WinSCP-5.9.2-Portable.zip",
-    "hash": "",
+    "url": [
+        "https://cdn.winscp.net/files/WinSCP-5.9.2-Portable.zip?secure=DpGYYeMyhCuFZDWFwEcHBw==,1474360364",
+        "https://winscp.net/translations/dll/5.9.2/jp.zip"
+    ],
+    "hash": "d552ff343b0e7f99c6917fa7cfacf4eb2742fc9ed1d96bfbe9ed5ea26ffe4e4a",
     "bin": "WinSCP.exe"
 }
