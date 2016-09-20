@@ -5,7 +5,7 @@
     "architecture": {
         "32bit": {
             "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2.zip",
-            "hash": ""
+            "hash": "4cac356d04f999c7134d32122c3a031f8e7d1f1d09424a00b9f19b8c05b652f1"
         },
         "64bit": {
             "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2-64.zip",
