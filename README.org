@@ -14,10 +14,10 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
   - asr
   - putty-d2ddw
   - wceskkserv (download dictionary)
-  - winscp (japanese resource?)
+  - vcxsrv
 - add package
   - putty-gdi?
-  - emacs64
+  - emacs
   - git for windows sdk
   - FastCopy
   - FileMany
@@ -25,5 +25,4 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
   - bug.n
   - HashCk
   - pita
-  - vcxsrv
   - lhaforge
