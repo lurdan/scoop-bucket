@@ -12,8 +12,8 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
 - test installation
 - tweak installation
   - asr
+  - putty-gdi
   - putty-d2ddw
-  - wceskkserv (download dictionary)
   - vcxsrv
 - add package
   - putty-gdi?
@@ -26,3 +26,7 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
   - HashCk
   - pita
   - lhaforge
+  - rapidee
+  - vlc?
+  - foobar2000
+  - mpc
