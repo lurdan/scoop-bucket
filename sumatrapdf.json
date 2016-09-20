@@ -9,7 +9,7 @@
         },
         "64bit": {
             "url": "http://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2-64.zip",
-            "hash": ""
+            "hash": "3c07b3fe267251d32a17f67ed5070018d69c8436df33e6db3ce757889b734676"
         }
     },
     "bin": "SumatraPDF.exe"
