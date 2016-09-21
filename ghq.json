@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/motemen/ghq/",
+    "version": "0.7.4",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/motemen/ghq/releases/download/v0.7.4/ghq_windows_386.zip",
+	    "hash": ""
+        },
+        "64bit": {
+            "url": "https://github.com/motemen/ghq/releases/download/v0.7.4/ghq_windows_amd64.zip",
+            "hash": "6c5f02beef10672e54aaaa348f5669c6d74066dbd748a632201301d2b123d45b"
+        }
+    },
+    "bin": "ghq.exe"
+}
