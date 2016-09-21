@@ -1,5 +1,17 @@
 * scoop-bucket
 
+** requirement
+
+*** [[https://github.com/lukesampson/scoop][scoop]]
+#+BEGIN_SRC cmd
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+#+END_SRC
+
+*** git
+#+BEGIN_SRC cmd
+scoop install git
+#+END_SRC
+
 ** setup
 
 #+BEGIN_SRC cmd
@@ -9,24 +21,22 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
 ** todo
 
 - add hash
+- add startmenu shortcuts
 - test installation
 - tweak installation
   - asr
-  - putty-gdi
   - putty-d2ddw
   - vcxsrv
 - add package
   - putty-gdi?
-  - emacs
-  - git for windows sdk
+  - emacs?
   - FastCopy
   - FileMany
   - eClip
   - bug.n
   - HashCk
   - pita
-  - lhaforge
-  - rapidee
   - vlc?
   - foobar2000
-  - mpc
+  - mpc-hc
+  - fenrir?
