@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/peco/peco/",
+    "version": "0.4.2",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/peco/peco/releases/download/v0.4.2/peco_windows_386.zip",
+	    "hash": "",
+            "bin": "peco_windows_386\\peco.exe"
+        },
+        "64bit": {
+            "url": "https://github.com/peco/peco/releases/download/v0.4.2/peco_windows_amd64.zip",
+            "hash": "2e7e4fed3386e1a86d3ad29afa26c0f3dea275df11a262b2054fadde9389c467",
+            "bin": "peco_windows_amd64\\peco.exe"
+        }
+    }
+}
