@@ -1,0 +1,8 @@
+{
+    "homepage": "http://www.rapidee.com",
+    "version": "9.0build930",
+    "url": "http://www.rapidee.com/download/RapidEE.zip",
+    "hash": "7ac95461a05f6c4eeab8de96406c8a362a9f58d64f81c0d95550331b0e255d5a",
+    "bin": "rapidee.exe",
+    "shortcuts": [ "rapidee.exe", "Rapid Environment Editor" ]
+}
