@@ -4,12 +4,13 @@
     "architecture": {
         "32bit": {
             "url": "http://downloads.sourceforge.net/project/mpcbe/MPC-BE/Release%20builds/1.4.6/MPC-BE.1.4.6.x86.7z",
-	    "hash": "2c18b607c601d4558f18b279f3c1527106000ff73ab1ddbb78d7277fc95aea13"
+	    "hash": "2c18b607c601d4558f18b279f3c1527106000ff73ab1ddbb78d7277fc95aea13",
+            "bin": "MPC-BE*\\mpc-be.exe"
 	},
 	"64bit": {
 	    "url": "http://downloads.sourceforge.net/project/mpcbe/MPC-BE/Release%20builds/1.4.6/MPC-BE.1.4.6.x64.7z",
-	    "hash": ""
+	    "hash": "492f94792198d37bc6f3b8c28d00de6be3014b873dd5555733a36525ba90ac7e",
+            "bin": "MPC-BE*\\mpc-be64.exe"
 	}
-    },
-    "bin": "MPC-BE*\\mpc-be.exe"
+    }
 }
