@@ -1,7 +1,16 @@
 {
     "homepage": "http://www.all.undo.jp/asr/",
-    "version": "7.7.7",
-    "url": "http://www.all.undo.jp/asr/arc/ASR777.exe",
-    "hash": "",
-    "bin": "Asr.exe"
+    "version": "7.8.2",
+    "url": "http://www.all.undo.jp/asr/arc/ASR782.exe#.7z",
+    "hash": "2eeceb923897cdcd91e56bfb5bc5011e9f41ecf5895fa221065e06edbaf68728",
+    "post_install": "Asr\\UpdateAsr.exe",
+    "architecture": {
+        "32bit": {
+            "bin": "Asr\\x86\\Asr.exe"
+        },
+        "64bit": {
+            "bin": "Asr\\x64\\Asr.exe"
+        }
+    }
 }
+
