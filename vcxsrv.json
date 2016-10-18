@@ -3,12 +3,13 @@
     "version": "1.18.3.0",
     "architecture": {
         "32bit": {
-            "url": "http://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.18.3.0/vcxsrv.1.18.3.0.installer.exe#.7z",
+            "url": "http://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.18.3.0/vcxsrv.1.18.3.0.installer.exe",
             "hash": ""
         },
         "64bit": {
-            "url": "http://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.18.3.0/vcxsrv-64.1.18.3.0.installer.exe#.7z",
+            "url": "http://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.18.3.0/vcxsrv-64.1.18.3.0.installer.exe",
             "hash": "2a982b35070d9f775cc56e7d12ccd96342784293b21e9141de045de34623d002"
         }
-    }
+    },
+    "installer": { "args": "-o$dir" }
 }
