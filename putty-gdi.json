@@ -1,0 +1,18 @@
+{
+    "homepage": "http://ice.hotmint.com/putty/index.html",
+    "version": "20160306",
+    "architecture": {
+        "32bit": {
+            "bin": [
+                "*\\putty.exe"
+            ]
+        },
+        "64bit": {
+            "bin": [
+                "*\\x64\\putty.exe"
+            ]
+        }
+    },
+    "url": "http://ice.hotmint.com/putty/putty-gdi-20160306.zip",
+    "hash": "d964dea523ef9e9dac2d939d52151d6a24b0452163c711f00c781e398febc621"
+}
