@@ -4,12 +4,22 @@
     "architecture": {
         "32bit": {
             "bin": [
-                "*\\putty.exe"
+                "*\\putty.exe",
+                "*\\puttygen.exe",
+		"*\\pscp.exe",
+		"*\\pageant.exe",
+		"*\\psftp.exe",
+		"*\\plink.exe"
             ]
         },
         "64bit": {
             "bin": [
-                "*\\x64\\putty.exe"
+                "*\\x64\\putty.exe",
+                "*\\x64\\puttygen.exe",
+		"*\\x64\\pscp.exe",
+		"*\\x64\\pageant.exe",
+		"*\\x64\\psftp.exe",
+		"*\\x64\\plink.exe"
             ]
         }
     },
