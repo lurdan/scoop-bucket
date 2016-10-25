@@ -1,0 +1,7 @@
+{
+    "homepage": "https://github.com/eksime/VDesk/",
+    "version": "0.2-beta1",
+    "url": "https://github.com/eksime/VDesk/releases/download/v0.2-beta1/vdesk.exe",
+    "hash": "b1092613672a0a71b3bf9fcf62495e0ebeccc7172bd21940d699dcc4c1f1f4af",
+    "bin": "vdesk.exe"
+}
