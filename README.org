@@ -25,18 +25,14 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
 - test installation
 - tweak installation
   - asr
+  - putty-gdi
   - putty-d2ddw
   - vcxsrv
 - add package
-  - putty-gdi?
-  - emacs?
   - FastCopy
   - FileMany
   - eClip
   - bug.n
   - HashCk
   - pita
-  - vlc?
-  - foobar2000
-  - mpc-hc
   - fenrir?
