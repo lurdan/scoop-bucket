@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.all.undo.jp/asr/",
-    "version": "7.8.2",
-    "url": "http://www.all.undo.jp/asr/arc/ASR782.exe#.7z",
-    "hash": "2eeceb923897cdcd91e56bfb5bc5011e9f41ecf5895fa221065e06edbaf68728",
+    "version": "8.0.3",
+    "url": "http://www.all.undo.jp/asr/arc/ASR803.exe#.7z",
+    "hash": "d2510a87bce32603724244beb866f7d13bc7162fd98001f337246632d98c5328",
     "post_install": "Asr\\UpdateAsr.exe",
     "architecture": {
         "32bit": {
@@ -13,4 +13,3 @@
         }
     }
 }
-
