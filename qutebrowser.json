@@ -4,7 +4,7 @@
     "architecture": {
         "32bit": {
             "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v0.10.1/qutebrowser-0.10.1-windows-standalone-win32.zip",
-	    "hash": ""
+	    "hash": "f6dd110c3c2afa92d624c7f4709c399be6069fbff38d0e28f89683765b7f78e9"
         },
         "64bit": {
             "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v0.10.1/qutebrowser-0.10.1-windows-standalone-amd64.zip",
