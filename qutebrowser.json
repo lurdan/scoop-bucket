@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/qutebrowser/qutebrowser",
+    "version": "0.10.1",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v0.10.1/qutebrowser-0.10.1-windows-standalone-win32.zip",
+	    "hash": ""
+        },
+        "64bit": {
+            "url": "https://github.com/qutebrowser/qutebrowser/releases/download/v0.10.1/qutebrowser-0.10.1-windows-standalone-amd64.zip",
+            "hash": "646989cf025813bff56ce8dbae1a8197775329042c75f545bcaa048c9a24d579"
+        }
+    },
+    "bin": "qutebrowser-0.10.1\\qutebrowser.exe"
+}
