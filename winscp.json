@@ -1,10 +1,16 @@
 {
     "homepage": "https://winscp.net",
-    "version": "5.9.2",
+    "version": "5.9.5",
     "url": [
-        "http://downloads.sourceforge.net/project/winscp/WinSCP/5.9.2/WinSCP-5.9.2-Portable.zip",
-        "https://winscp.net/translations/dll/5.9.2/jp.zip"
+        "https://sourceforge.net/projects/winscp/files/WinSCP/5.9.5/WinSCP-5.9.5-Portable.zip",
+        "https://winscp.net/translations/dll/5.9.5/jp.zip"
     ],
-    "hash": "d552ff343b0e7f99c6917fa7cfacf4eb2742fc9ed1d96bfbe9ed5ea26ffe4e4a",
-    "bin": "WinSCP.exe"
+    "hash": "2cdf922660804fcf1d15f6cac7e1634e94a6597f58b1cdc388414302543636b7",
+    "bin": "WinSCP.exe",
+    "shortcuts": [
+        [
+            "WinSCP.exe",
+            "WinSCP"
+        ]
+    ]
 }
