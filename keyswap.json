@@ -1,7 +1,7 @@
 {
     "homepage": "http://www.asahi-net.or.jp/~ee7k-nsd/",
     "version": "4.02",
-    "url": "http://ftp.vector.co.jp/53/91/2331/keyswap.zip",
-    "hash": "22c33d4d30bfd2886723d82c521370790ba21cdba13e734dc1d187e7f8112c58",
+    "url": "http://www.asahi-net.or.jp/~ee7k-nsd/keyswap.lzh",
+    "hash": "e41490f10c08286405c44df2ebc9727279563d6963eadf568b146f9692c50c44",
     "bin": "keyswap\\KeySwap.exe"
 }
