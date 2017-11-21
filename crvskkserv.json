@@ -1,0 +1,7 @@
+{
+  "homepage": "https://github.com/nathancorvussolis/crvskkserv",
+  "version": "2.2.0",
+  "url": "https://github.com/nathancorvussolis/crvskkserv/releases/download/2.2.0/crvskkserv-2.2.0.zip",
+  "hash": "6cdb66862c56f87a19bae32f9b6cdf4314060a5b83be65df11a25505cfcd8830",
+  "bin": "crvskkserv.exe"
+}

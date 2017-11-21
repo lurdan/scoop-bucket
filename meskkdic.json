@@ -1,0 +1,7 @@
+{
+  "homepage": "https://github.com/nathancorvussolis/meskkdic",
+  "version": "2.2.0",
+  "url": "https://github.com/nathancorvussolis/meskkdic/releases/download/2.2.0/meskkdic-2.2.0.zip",
+  "hash": "08093bf1b051b3e48190ee7908cd05b092e4cd4c6466f25c7721748e8cc96f47",
+  "bin": "meskkdic.exe"
+}
