@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/fuhsjr00/bug.n/",
-    "version": "9.0.0-git20170516",
-    "url": "https://github.com/fuhsjr00/bug.n/archive/master.zip",
-    "extract_dir": "bug.n-master",
-    "hash": "ff4f8c0e927b34c21993153ffdd5c152ec5817843fb9e10e0008dbee7b102ead",
+    "version": "9.0.1",
+    "url": "https://github.com/fuhsjr00/bug.n/archive/v9.0.1.zip",
+    "extract_dir": "bug.n-9.0.1",
+    "hash": "91a02008af18ad5d4988219055473359ba670d789398e0af853fae6702d03495",
     "bin": "bugn.exe"
 }
