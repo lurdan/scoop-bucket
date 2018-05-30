@@ -1,7 +1,0 @@
-{
-    "homepage": "https://github.com/RoliSoft/WSL-Distribution-Switcher/",
-    "version": "0.1.0",
-    "url": "https://github.com/RoliSoft/WSL-Distribution-Switcher/releases/download/v0.1.0/WSL-Distribution-Switcher_v0.1.0.zip",
-    "hash": "6b12006dcaaf3642a6f95a41e129c1985a4ba91ad3c3b5b043cdb91f93603d3d",
-    "bin": [ "get-source.py", "get-prebuilt.py", "install.py" ]
-}
