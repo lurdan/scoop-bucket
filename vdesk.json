@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/eksime/VDesk/",
-    "version": "0.2-beta1",
-    "url": "https://github.com/eksime/VDesk/releases/download/v0.2-beta1/vdesk.exe",
-    "hash": "b1092613672a0a71b3bf9fcf62495e0ebeccc7172bd21940d699dcc4c1f1f4af",
+    "version": "1.1.2",
+    "url": "https://github.com/eksime/VDesk/releases/download/v1.1.2/VDeskSetup.msi",
+    "hash": "3870fbf7217d0fbd5b7b66b4c6c017926ab3cb6b93247cf665255b52661b09a0",
     "bin": "vdesk.exe"
 }
