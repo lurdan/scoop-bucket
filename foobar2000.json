@@ -1,8 +1,0 @@
-{
-    "homepage": "http://www.foobar2000.org",
-    "version": "1.3.12",
-    "license": "http://www.foobar2000.org/license",
-    "url": "http://www.foobar2000.org/files/4bcc0a8bd88aa86506268750f2d74e98/foobar2000_v1.3.12.exe#.7z",
-    "hash": "8f0f0cb30414794cae473fd041eb830b75ae73ae8777f1fd2bac853d99dd137d",
-    "bin": "foobar2000.exe"
-}
