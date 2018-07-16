@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/lurdan/ntemacs64/",
+    "version": "26.1-20180714.28",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.1-20180714.28/ntemacs64-26.1.zip",
+	    "hash": "",
+            "bin": "bin\\runemacs.exe"
+        },
+        "64bit": {
+            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.1-20180714.28/ntemacs64-26.1.zip",
+            "hash": "5389373569331dbce066fbd6b5ec4e036d470a3102e19a68dc6d19ce7484c524",
+            "bin": "bin\\runemacs.exe"
+        }
+    },
+  "env_add_path": "bin",
+  "env_set": {
+    "HOME": "$env:USERPROFILE"
+  },
+  "shortcuts": [ [ "bin\\runemacs.exe", "NTEmacs64" ] ]
+}
