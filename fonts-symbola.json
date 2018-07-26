@@ -1,9 +1,9 @@
 {
-    "version": "10.23",
+    "version": "11.00",
     "license": "custom",
     "homepage": "http://users.teilar.gr/~g1951d/",
     "url": "http://users.teilar.gr/~g1951d/Symbola.zip",
-    "hash": "ff0706603b93238008ce1b76fdeeb83c23a470bd90fed56c2c64c6a052842c50",
+    "hash": "d594ce9d51832f614776fed400b79e8ffffb8f8effeced73f9034907e512527d",
     "installer": {
         "script": "
             Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {
