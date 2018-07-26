@@ -1,8 +1,8 @@
 {
     "homepage": "http://claybird.sakura.ne.jp/garage/lhaforge/",
-    "version": "1.6.5",
-    "url": "http://claybird.sakura.ne.jp/garage/lhaforge/lfarchive_1_6_5.zip",
-    "hash": "d5420f215766ef97b26b5748380359165bb5a4df9800a1545e4b365c8a92ff5d",
-    "bin": "lfarchive_1_6_5\\LhaForge.exe",
-    "shortcuts": [ [ "lfarchive_1_6_5\\LhaForge.exe", "LhaForge" ] ]
+    "version": "1.6.6",
+    "url": "http://claybird.sakura.ne.jp/garage/lhaforge/lfarchive_1_6_6.zip",
+    "hash": "a3d5aef7623d8f0a72a2e3956fb5e89861452c6fea123d7c60ee1489be957597",
+    "bin": "lfarchive_1_6_6\\LhaForge.exe",
+    "shortcuts": [ [ "lfarchive_1_6_6\\LhaForge.exe", "LhaForge" ] ]
 }
