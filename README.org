@@ -1,32 +1,63 @@
-* scoop-bucket
+* lurdan bucket for scoop
 
-** requirement
+開発元の buckets に含まれることのなさそうな scoop manifest 集です
 
-*** [[https://github.com/lukesampson/scoop][scoop]]
-#+BEGIN_SRC cmd
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-#+END_SRC
-
-*** git
+** 使い方
+*** git コマンドが必要
 #+BEGIN_SRC cmd
 scoop install git
 #+END_SRC
 
-** setup
+*** [[https://github.com/lukesampson/scoop][scoop]] をインストール
+#+BEGIN_SRC cmd
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+#+END_SRC
 
+*** scoop に lurdan bucket を追加
 #+BEGIN_SRC cmd
 scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
 #+END_SRC
 
-** todo
+** 含まれている manifests
+*** 日本人専用なあれこれ
+日本語関連や、海外ユーザが少なそうなもの
 
-- add hash
-- add startmenu shortcuts
-- test installation
-- tweak installation
-  - asr
-  - putty-gdi
+- SKK 関連
+  - crvskkserv
+  - meskkdic
+
+- 日本語フォント
+  - Myrica
+  - Nasu
+  - 源瑛ゴシック
+
+- その他
+  - memclx
   - putty-d2ddw
-- add package
-  - eClip
-  - HashCk
+  - lhaforge
+  - memclx
+
+*** 自分専用に調整しているもの
+- ntemacs64
+
+*** 自分は使うけど見当たらないもの
+開発元に追加され次第、消えていきます
+
+- bug.n
+- fastcopy
+- peco
+- quicklook
+- realvnc
+
+*** 保留
+- 調整中
+  - asr
+  - groonga
+
+- そのうち削除予定
+  - limechat
+  - putty-gdi
+  - vdesk
+  - vivaldi
+  - vscode-insiders
+  - wceskkserv
