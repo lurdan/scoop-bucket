@@ -1,21 +1,25 @@
 {
-    "homepage": "http://www.all.undo.jp/Memcl/",
-    "version": "1.00",
-    "architecture": {
-        "32bit": {
-            "bin": [
-                "*\\x86\\MemClX.exe",
-                "*\\x86\\MemClXCmd.exe"
-            ]
-        },
-        "64bit": {
-            "bin": [
-                "*\\x64\\MemClX.exe",
-                "*\\x64\\MemClXCmd.exe"
-            ]
-        }
+  "homepage": "http://www.all.undo.jp/Memcl/",
+  "version": "1.01",
+  "url": "http://www.all.undo.jp/Memcl/MemCx101.exe",
+  "hash": "76baa1331c08eb792684aa27c9f9cf0105a6394fbf3a40a94101f49eb7b89e48",
+  "extract_dir": "メモリの掃除屋さん　にゃお",
+  "architecture": {
+    "32bit": {
+      "bin": [
+        "*\\x86\\MemClX.exe",
+        "*\\x86\\MemClXCmd.exe"
+      ],
+      "shortcuts": [ [ "メモリの掃除屋さん　にゃお\\x86\\MemClX.exe", "めもりの掃除屋さん にゃお" ] ]
+
     },
-    "url": "http://ftp.vector.co.jp/63/46/2273/MemCx100.exe",
-    "hash": "39ac30039b5634543d536848d5183f25ef09fd6c9594e8f0938de62a406ddc1f",
-    "installer": { "args": "-o$dir" }
+    "64bit": {
+      "bin": [
+        "*\\x64\\MemClX.exe",
+        "*\\x64\\MemClXCmd.exe"
+      ],
+      "shortcuts": [ [ "メモリの掃除屋さん　にゃお\\x64\\MemClX.exe", "めもりの掃除屋さん にゃお" ] ]
+    }
+  },
+  "installer": { "args": "-o$dir" }
 }
