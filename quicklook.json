@@ -1,8 +1,0 @@
-{
-  "homepage": "http://pooi.moe/QuickLook/",
-  "version": "0.3.5",
-  "license": "GPL3",
-  "url": "https://github.com/xupefei/QuickLook/releases/download/0.3.5/QuickLook-0.3.5.zip",
-  "hash": "3752c36cfef116efe64c288f99d2f97ee20dfecfbf4a16f46e3fce19276008ff",
-  "bin": "QuickLook.exe"
-}
