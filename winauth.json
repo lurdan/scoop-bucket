@@ -1,0 +1,10 @@
+{
+    "version": "3.5.1",
+    "homepage": "https://github.com/winauth/winauth",
+    "url": "https://github.com/winauth/winauth/releases/download/3.5.1/WinAuth-3.5.1.zip",
+    "hash": "",
+    "bin": "WinAuth.exe",
+    "shortcuts": [
+        ["WinAuth.exe", "WinAuth"]
+    ]
+}
