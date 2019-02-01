@@ -1,9 +1,9 @@
 {
   "homepage": "https://fastcopy.jp",
-  "version": "3.52",
+  "version": "3.62",
   "license": "GPL-3.0",
-  "url": "https://fastcopy.jp/archive/FastCopy352_installer.zip",
-  "hash": "f87524abf51d0cf738b4bf644c255c73677c8ee456c079297dd2f89fa2e05e41",
+  "url": "https://fastcopy.jp/archive/FastCopy362_installer.exe",
+  "hash": "4a88318e05374bc4e0484273915f73eed751de6ccc67673dfff60b1f6060d8a2",
   "persist": "FastCopy2.ini",
   "pre_install": [
     "if (!(Test-Path \"$persist_dir\\FastCopy2.ini\")) {",
@@ -13,14 +13,14 @@
   "architecture": {
     "32bit": {
       "installer": {
-        "file": "FastCopy352_installer.exe",
+        "file": "FastCopy362_installer.exe",
 	"args": [ "/EXTRACT32", "/NOSUBDIR" ],
         "keep": "true"
       }
     },
     "64bit": {
       "installer": {
-        "file": "FastCopy352_installer.exe",
+        "file": "FastCopy362_installer.exe",
         "args": [ "/EXTRACT64", "/NOSUBDIR" ],
         "keep": "true"
       }
@@ -33,7 +33,7 @@
     "re": "FastCopy ver ([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://fastcopy.jp/archive/FastCopy$cleanVersion_installer.zip",
+    "url": "https://fastcopy.jp/archive/FastCopy$cleanVersion_installer.exe",
     "hash": {
       "url": "$url.sha256"
     },
