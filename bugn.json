@@ -4,5 +4,6 @@
     "url": "https://github.com/fuhsjr00/bug.n/archive/v9.0.1.zip",
     "extract_dir": "bug.n-9.0.1",
     "hash": "91a02008af18ad5d4988219055473359ba670d789398e0af853fae6702d03495",
+    "shortcuts": [ [ "bugn.exe", "bug.n" ] ],
     "bin": "bugn.exe"
 }
