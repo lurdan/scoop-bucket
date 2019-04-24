@@ -44,8 +44,6 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
 開発元に追加され次第、消えていきます
 
 - bug.n
-- fastcopy
-- peco
 - quicklook
 - realvnc
 
@@ -59,5 +57,4 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
   - putty-gdi
   - vdesk
   - vivaldi
-  - vscode-insiders
   - wceskkserv
