@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/lurdan/ntemacs64/",
-    "version": "26.2-20190416.34",
+    "version": "26.2-20190423.41",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190416.34/ntemacs64-26.2.zip",
+            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190423.41/ntemacs64-26.2.zip",
 	    "hash": "",
             "bin": "bin\\runemacs.exe"
         },
         "64bit": {
-            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190416.34/ntemacs64-26.2.zip",
-            "hash": "92a87d65b0763ceee49586c530b798bc1dff4d05744b876fd83fe4845d31711e",
+            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190423.41/ntemacs64-26.2.zip",
+            "hash": "6681218dfdbf9394e8ffa4ba1a5a0202652c02366235f802c0e1f87ce02f1c20",
             "bin": "bin\\runemacs.exe"
         }
     },
