@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/lurdan/ntemacs64/",
-    "version": "26.2-20190423.41",
+    "version": "26.2-20190424.44",
     "architecture": {
         "32bit": {
             "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190423.41/ntemacs64-26.2.zip",
