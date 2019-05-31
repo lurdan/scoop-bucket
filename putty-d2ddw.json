@@ -1,20 +1,20 @@
 {
   "homepage": "http://ice.hotmint.com/putty/d2ddw.html",
-  "version": "20180413",
+  "version": "20190321",
   "architecture": {
     "32bit": {
       "bin": [
         "*\\putty.exe"
       ],
-      "shortcuts": [ [ "putty-d2ddw-20180413\\putty.exe", "Putty (d2ddw)" ] ]
+      "shortcuts": [ [ "putty-d2ddw-20190321\\putty.exe", "Putty (d2ddw)" ] ]
     },
     "64bit": {
       "bin": [
         "*\\x64\\putty.exe"
       ],
-      "shortcuts": [ [ "putty-d2ddw-20180413\\x64\\putty.exe", "Putty (d2ddw)" ] ]
+      "shortcuts": [ [ "putty-d2ddw-20190321\\x64\\putty.exe", "Putty (d2ddw)" ] ]
     }
   },
-  "url": "http://ice.hotmint.com/putty/putty-d2ddw-20180413.zip",
-  "hash": "48a90e4c48688c8e95c9a8a512393499fa3ffe38d5d3cb03738fabfcb5f63bed"
+  "url": "https://ice.hotmint.com/putty/down/putty-d2ddw-20190321.zip",
+  "hash": "3792758a7633bcdb8be683b9b21e795bcf89f4c16c969afe19f0a7258162bb4d"
 }
