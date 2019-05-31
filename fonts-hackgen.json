@@ -1,0 +1,25 @@
+{
+  "version": "0.6.3",
+  "license": "custom",
+  "homepage": "https://github.com/yuru7/HackGen",
+  "url": "https://github.com/yuru7/HackGen/releases/download/v0.6.3/HackGen_v0.6.3.zip",
+  "hash": "6b1ceaf35202b7d6374072f9034e2850299193c8f4e8505f04998f3d5fc37730",
+  "extract_dir": "HackGen_v0.6.3",
+  "installer": {
+    "script": "
+            Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {
+                New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null
+                Copy-Item \"$dir\\$_\" -destination \"$env:windir\\Fonts\"
+            }
+        "
+  },
+  "uninstaller": {
+    "script": "
+            Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {
+                Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue
+                Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue
+            }
+            Write-Host \"The 'HackGen' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta
+        "
+  }
+}
