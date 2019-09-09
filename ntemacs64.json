@@ -1,18 +1,18 @@
 {
-    "homepage": "https://github.com/lurdan/ntemacs64/",
-    "version": "26.2-20190424.44",
-    "architecture": {
-        "32bit": {
-            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190423.41/ntemacs64-26.2.zip",
-	    "hash": "",
-            "bin": "bin\\runemacs.exe"
-        },
-        "64bit": {
-            "url": "https://github.com/lurdan/ntemacs64/releases/download/26.2-20190423.41/ntemacs64-26.2.zip",
-            "hash": "6681218dfdbf9394e8ffa4ba1a5a0202652c02366235f802c0e1f87ce02f1c20",
-            "bin": "bin\\runemacs.exe"
-        }
+  "homepage": "https://github.com/lurdan/ntemacs64/",
+  "version": "26.3-20190909.45",
+  "architecture": {
+    "32bit": {
+      "url": "https://github.com/lurdan/ntemacs64/releases/download/26.3-20190909.45/ntemacs64-26.3.zip",
+      "hash": "",
+      "bin": "bin\\runemacs.exe"
     },
+    "64bit": {
+      "url": "https://github.com/lurdan/ntemacs64/releases/download/26.3-20190909.45/ntemacs64-26.3.zip",
+      "hash": "996ccfe38937e9e51e1db615261cad98c0dfefb52dc8b68a6938a1fb618b34c9",
+      "bin": "bin\\runemacs.exe"
+    }
+  },
   "env_add_path": "bin",
   "env_set": {
     "HOME": "$env:USERPROFILE"
