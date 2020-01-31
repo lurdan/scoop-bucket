@@ -1,38 +1,38 @@
 {
   "homepage": "http://ice.hotmint.com/putty/index.html",
-  "version": "20190321",
+  "version": "20191001",
   "architecture": {
     "32bit": {
       "bin": [
-        "*\\putty.exe",
-        "*\\puttygen.exe",
-	"*\\pscp.exe",
-	"*\\pageant.exe",
-	"*\\psftp.exe",
-	"*\\plink.exe"
+        "*\\x86\\putty.exe",
+        "*\\x86\\puttygen.exe",
+        "*\\x86\\pscp.exe",
+        "*\\x86\\pageant.exe",
+        "*\\x86\\psftp.exe",
+        "*\\x86\\plink.exe"
       ],
       "shortcuts": [
-        [ "putty-gdi-20190321\\putty.exe", "Putty" ],
-        [ "putty-gdi-20190321\\puttygen.exe", "Puttygen" ],
-        [ "putty-gdi-20190321\\pageant.exe", "Pagaeant" ]
+        [ "putty-gdi-20191001\\x86\\putty.exe", "Putty" ],
+        [ "putty-gdi-20191001\\x86\\puttygen.exe", "Puttygen" ],
+        [ "putty-gdi-20191001\\x86\\pageant.exe", "Pagaeant" ]
       ]
     },
     "64bit": {
       "bin": [
-        "*\\x64\\putty.exe",
-        "*\\x64\\puttygen.exe",
-	"*\\x64\\pscp.exe",
-	"*\\x64\\pageant.exe",
-	"*\\x64\\psftp.exe",
-	"*\\x64\\plink.exe"
+        "*\\putty.exe",
+        "*\\puttygen.exe",
+        "*\\pscp.exe",
+        "*\\pageant.exe",
+        "*\\psftp.exe",
+        "*\\plink.exe"
       ],
       "shortcuts": [
-        [ "putty-gdi-20190321\\putty.exe", "Putty" ],
-        [ "putty-gdi-20190321\\puttygen.exe", "Puttygen" ],
-        [ "putty-gdi-20190321\\pageant.exe", "Pagaeant" ]
+        [ "putty-gdi-20191001\\putty.exe", "Putty" ],
+        [ "putty-gdi-20191001\\puttygen.exe", "Puttygen" ],
+        [ "putty-gdi-20191001\\pageant.exe", "Pagaeant" ]
       ]
     }
   },
-  "url": "https://ice.hotmint.com/putty/down/putty-gdi-20190321.zip",
-  "hash": "1930a79f6f27a2a7e5980136aeb961588e87a88e81fd7d2fd0a3381692b3cfc6"
+  "url": "https://ice.hotmint.com/putty/down/putty-gdi-20191001.zip",
+  "hash": "ec2bd61ff90423869bb5c21daf4e9ed1163c1a6ec0709c58f8afe09eb5052520"
 }
