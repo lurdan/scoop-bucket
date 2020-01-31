@@ -1,20 +1,27 @@
 {
   "homepage": "http://ice.hotmint.com/putty/d2ddw.html",
-  "version": "20190321",
+  "version": "20191001",
+  "extract_dir": "putty-d2ddw-20191001",
+  "persist": [ "" ],
   "architecture": {
     "32bit": {
       "bin": [
-        "*\\putty.exe"
+        "x86\\putty.exe"
       ],
-      "shortcuts": [ [ "putty-d2ddw-20190321\\putty.exe", "Putty (d2ddw)" ] ]
+      "shortcuts": [ [ "x86\\putty.exe", "Putty (d2ddw)", "-ini $persist_dir\\putty.ini" ] ]
     },
     "64bit": {
       "bin": [
-        "*\\x64\\putty.exe"
+        "putty.exe"
       ],
-      "shortcuts": [ [ "putty-d2ddw-20190321\\x64\\putty.exe", "Putty (d2ddw)" ] ]
+      "shortcuts": [ [ "putty.exe", "Putty (d2ddw)", "-ini $persist_dir\\putty.ini" ] ]
     }
   },
-  "url": "https://ice.hotmint.com/putty/down/putty-d2ddw-20190321.zip",
-  "hash": "3792758a7633bcdb8be683b9b21e795bcf89f4c16c969afe19f0a7258162bb4d"
+  "post_install": [
+    "if(!(test-path \"$persist_dir\\putty.ini\")) {",
+    "  Copy-Item \"$dir\\ini\\putty.ini\" \"$persist_dir\" | Out-Null",
+    "}"
+  ],
+  "url": "https://ice.hotmint.com/putty/down/putty-d2ddw-20191001.zip",
+  "hash": "21a07f1e70e57f6cc0e958d6d80efd4c03d704ade8cb1651fe7a506dcb85439c"
 }
