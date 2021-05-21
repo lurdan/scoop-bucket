@@ -53,8 +53,6 @@ scoop bucket add lurdan https://github.com/lurdan/scoop-bucket
   - groonga
 
 - そのうち削除予定
-  - limechat
   - putty-gdi
   - vdesk
-  - vivaldi
   - wceskkserv
