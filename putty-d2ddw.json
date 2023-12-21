@@ -1,7 +1,7 @@
 {
   "homepage": "http://ice.hotmint.com/putty/d2ddw.html",
-  "version": "20191001",
-  "extract_dir": "putty-d2ddw-20191001",
+  "version": "20231220",
+  "extract_dir": "putty-d2ddw-20231220",
   "persist": [ "" ],
   "architecture": {
     "32bit": {
@@ -22,6 +22,6 @@
     "  Copy-Item \"$dir\\ini\\putty.ini\" \"$persist_dir\" | Out-Null",
     "}"
   ],
-  "url": "https://ice.hotmint.com/putty/down/putty-d2ddw-20191001.zip",
-  "hash": "21a07f1e70e57f6cc0e958d6d80efd4c03d704ade8cb1651fe7a506dcb85439c"
+  "url": "https://ice.hotmint.com/putty/down/putty-d2ddw-20231220.zip",
+  "hash": "ec183f9b01dd363707ad4708794f06712ee56a4ef5625947fe6f8365ae6747e1"
 }

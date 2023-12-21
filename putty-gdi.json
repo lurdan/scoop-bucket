@@ -1,6 +1,6 @@
 {
   "homepage": "http://ice.hotmint.com/putty/index.html",
-  "version": "20191001",
+  "version": "20231219",
   "architecture": {
     "32bit": {
       "bin": [
@@ -12,9 +12,9 @@
         "*\\x86\\plink.exe"
       ],
       "shortcuts": [
-        [ "putty-gdi-20191001\\x86\\putty.exe", "Putty" ],
-        [ "putty-gdi-20191001\\x86\\puttygen.exe", "Puttygen" ],
-        [ "putty-gdi-20191001\\x86\\pageant.exe", "Pagaeant" ]
+        [ "putty-gdi-20231219\\x86\\putty.exe", "Putty (gdi)" ],
+        [ "putty-gdi-20231219\\x86\\puttygen.exe", "Puttygen (gdi)" ],
+        [ "putty-gdi-20231219\\x86\\pageant.exe", "Pagaeant (gdi)" ]
       ]
     },
     "64bit": {
@@ -27,12 +27,12 @@
         "*\\plink.exe"
       ],
       "shortcuts": [
-        [ "putty-gdi-20191001\\putty.exe", "Putty" ],
-        [ "putty-gdi-20191001\\puttygen.exe", "Puttygen" ],
-        [ "putty-gdi-20191001\\pageant.exe", "Pagaeant" ]
+        [ "putty-gdi-20231219\\putty.exe", "Putty (gdi)" ],
+        [ "putty-gdi-20231219\\puttygen.exe", "Puttygen (gdi)" ],
+        [ "putty-gdi-20231219\\pageant.exe", "Pagaeant (gdi)" ]
       ]
     }
   },
-  "url": "https://ice.hotmint.com/putty/down/putty-gdi-20191001.zip",
-  "hash": "ec2bd61ff90423869bb5c21daf4e9ed1163c1a6ec0709c58f8afe09eb5052520"
+  "url": "https://ice.hotmint.com/putty/down/putty-gdi-20231219.zip",
+  "hash": "73d21b5e12c56a6f75e028c1e43361f3095c491d69459cf6a0e67b75e851b0d7"
 }
